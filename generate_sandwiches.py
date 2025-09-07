@@ -5,7 +5,7 @@ from pathlib import Path
 # ==== CONFIG ====
 CSV_FILE = "Image Metadata.csv"
 SPRITE_FILE = "sprite.svg"
-OUTPUT_FILE = "index.html"
+OUTPUT_FILE = "docs/index.html"
 VIEWBOX = "0 0 1000 1000"
 LAYER_ORDER = ["cheese", "vegetable", "egg", "meat", "dressing","bread"]
 # =================

@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Master Degree of Sandwich Making</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -65,7 +66,7 @@
     @media (max-width: 800px) {
         .two-col {
         flex-direction: column;
-        gap: 0;
+        gap: 1.5em;
         }
         .two-col .svg-col {
         justify-content: flex-start;
@@ -76,7 +77,7 @@
     .custom-text-block {
     margin-bottom: 1em; /* or any space you want */
     font-family: "Work Sans", sans-serif;
-    font-size: 1rem;
+    font-size: 16px;
     color: #000;
     text-align: left;
     font-weight: 400;
@@ -102,7 +103,7 @@
         text-align: center;
         font-family: "Work Sans", sans-serif;
         font-weight: 400;
-        font-size: 0.875rem;
+        font-size: 12px;
     }
 
     .grid {
@@ -181,6 +182,9 @@
     font-weight: 400;
     mix-blend-mode: multiply;
     }
+    svg.hidden {
+      display: none;
+    }
 
     
 
@@ -188,7 +192,7 @@
 </head>
 <body>
   <!-- Inline sprite -->
-  <svg width="0" height="0" class="hidden">
+  <svg style="display:none" width="0" height="0" class="hidden">
   <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 75" id="bread=bagel">
     <g id="bread=bagel">
       <path id="Subtract" d="M37.5 6C54.897 6 69 20.103 69 37.5C69 54.897 54.897 69 37.5 69C20.103 69 6 54.897 6 37.5C6 20.103 20.103 6 37.5 6ZM37.5 28.2666C32.4006 28.2666 28.2666 32.4006 28.2666 37.5C28.2666 42.5994 32.4006 46.7334 37.5 46.7334C42.5994 46.7334 46.7334 42.5994 46.7334 37.5C46.7334 32.4006 42.5994 28.2666 37.5 28.2666Z" stroke="black" stroke-width="2"></path>
@@ -593,7 +597,8 @@
       <circle id="Ellipse 109" cx="29.5" cy="69.5" r="3.5" fill="#FF1919"></circle>
     </g>
   </symbol>
-</svg> 
+</svg>
+ 
   <div class="container">
     <p>
     <span style="color: #A3A3A3;">
@@ -603,7 +608,7 @@
   </div>
 
   <div class="container">
-    <h1>Eating out is expensive. My cooking skills are poor. Therefore, 240 meals of sandwiches.</h1>
+    <h1>T Eating out is expensive. My cooking skills are poor. Therefore, 240 meals of sandwiches.</h1>
   </div>
 
   <!-- Filter buttons -->
