@@ -296,6 +296,9 @@ def main():
     font-weight: 400;
     mix-blend-mode: multiply;
     }}
+    svg.hidden {{
+      display: none;
+    }}
 
     
 
@@ -303,9 +306,8 @@ def main():
 </head>
 <body>
   <!-- Inline sprite -->
-  <div style="display:none;">
   {sprite}
-  </div> 
+ 
   <div class="container">
     <p>
     <span style="color: #A3A3A3;">
