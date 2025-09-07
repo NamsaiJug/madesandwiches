@@ -191,7 +191,7 @@ def main():
     .custom-text-block {{
     margin-bottom: 1em; /* or any space you want */
     font-family: "Work Sans", sans-serif;
-    font-size: 1rem;
+    font-size: 16px;
     color: #000;
     text-align: left;
     font-weight: 400;
@@ -217,7 +217,7 @@ def main():
         text-align: center;
         font-family: "Work Sans", sans-serif;
         font-weight: 400;
-        font-size: 0.875rem;
+        font-size: 12px;
     }}
 
     .grid {{
@@ -303,7 +303,9 @@ def main():
 </head>
 <body>
   <!-- Inline sprite -->
-  {sprite} 
+  <div style="display:none;">
+  {sprite}
+  </div> 
   <div class="container">
     <p>
     <span style="color: #A3A3A3;">
