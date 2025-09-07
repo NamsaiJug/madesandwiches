@@ -376,7 +376,7 @@ def main():
 
   
   
-
+  
 
   <script>
   // Hide price layer by default on page load
