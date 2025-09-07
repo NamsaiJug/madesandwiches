@@ -183,7 +183,7 @@ def main():
     @media (max-width: 800px) {{
         .two-col {{
         flex-direction: column;
-        gap: 0;
+        gap: 1.5em;
         }}
         .two-col .svg-col {{
         justify-content: flex-start;
