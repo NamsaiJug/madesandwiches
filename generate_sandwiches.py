@@ -236,7 +236,7 @@ def main():
         width: 100%;      /* fills the grid column */
         aspect-ratio: 1/1; /* keeps square */
         max-width: 160px;  /* max size */
-        min-width: 75px;   /* min size */
+        min-width: 60px;   /* min size */
     }}
     svg {{
       width: 100%;
@@ -320,7 +320,7 @@ def main():
   </div>
 
   <div class="container">
-    <h1>T Eating out is expensive. My cooking skills are poor. Therefore, 240 meals of sandwiches.</h1>
+    <h1>Eating out is expensive. My cooking skills are poor. Therefore, 240 meals of sandwiches.</h1>
   </div>
 
   <!-- Filter buttons -->
