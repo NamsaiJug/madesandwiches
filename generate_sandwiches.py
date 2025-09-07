@@ -179,7 +179,6 @@ def main():
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 100%;
     }}
     @media (max-width: 800px) {{
         .two-col {{
@@ -187,7 +186,8 @@ def main():
         gap: 1.5em;
         }}
         .two-col .svg-col {{
-        justify-content: flex-start;
+        justify-content: center;
+        align-items: center;
         }}
     }}
 
