@@ -3,9 +3,9 @@ from datetime import datetime
 from pathlib import Path
 
 # ==== CONFIG ====
-CSV_FILE = "Image Metadata.csv"
-SPRITE_FILE = "sprite.svg"
-OUTPUT_FILE = "index.html"
+CSV_FILE = "docs/Image Metadata.csv"
+SPRITE_FILE = "docs/sprite.svg"
+OUTPUT_FILE = "docs/index.html"
 VIEWBOX = "0 0 1000 1000"
 LAYER_ORDER = ["cheese", "vegetable", "egg", "meat", "dressing","bread"]
 # =================
@@ -115,7 +115,6 @@ def main():
     # Build final HTML
     html = """<!DOCTYPE html>
 
-
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -133,21 +132,21 @@ def main():
     h1 {{
         font-family: "Work Sans", sans-serif;
         font-weight: 300;
-        font-size: 2.5rem;
+        font-size: 32px;
         text-align: center;
 
     }}
     h2 {{
         font-family: "Work Sans", sans-serif;
         font-weight: 600;
-        font-size: 1.25rem;
+        font-size: 24px;
         line-height: 1.1;
         text-align: center;
     }}
     p {{
         font-family: "Work Sans", sans-serif;
         font-weight: 400;
-        font-size: 1rem;
+        font-size: 16px;
         text-align: center;
         color: #000000;
         width: 100%;
@@ -234,6 +233,7 @@ def main():
         width: 100%;      /* fills the grid column */
         aspect-ratio: 1/1; /* keeps square */
         max-width: 160px;  /* max size */
+        min-width: 75px;   /* min size */
     }}
     svg {{
       width: 100%;
