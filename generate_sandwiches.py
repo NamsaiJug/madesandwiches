@@ -3,9 +3,9 @@ from datetime import datetime
 from pathlib import Path
 
 # ==== CONFIG ====
-CSV_FILE = "docs/Image Metadata.csv"
-SPRITE_FILE = "docs/sprite.svg"
-OUTPUT_FILE = "docs/index.html"
+CSV_FILE = "Image Metadata.csv"
+SPRITE_FILE = "sprite.svg"
+OUTPUT_FILE = "index.html"
 VIEWBOX = "0 0 1000 1000"
 LAYER_ORDER = ["cheese", "vegetable", "egg", "meat", "dressing","bread"]
 # =================
