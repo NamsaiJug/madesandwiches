@@ -50,6 +50,8 @@ def main():
 
     # Read sprite SVG
     sprite_content = Path(SPRITE_FILE).read_text(encoding="utf-8")
+    # Hide the sprite SVG visually
+    sprite_content = sprite_content.replace('<svg', '<svg style="display:none"', 1)
 
     # Generate sandwich blocks
     # Build sandwich SVG blocks with hover overlay
