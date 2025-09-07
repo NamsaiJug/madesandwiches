@@ -320,7 +320,7 @@ def main():
   </div>
 
   <div class="container">
-    <h1>Eating out is expensive. My cooking skills are poor. Therefore, 240 meals of sandwiches.</h1>
+    <h1>T Eating out is expensive. My cooking skills are poor. Therefore, 240 meals of sandwiches.</h1>
   </div>
 
   <!-- Filter buttons -->
