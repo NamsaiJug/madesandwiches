@@ -188,7 +188,6 @@ def main():
         }}
         .two-col .svg-col {{
           justify-content: center;
-          align-items: center;
         }}
     }}
 
